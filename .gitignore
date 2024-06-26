@@ -1,0 +1,86 @@
+.env
+ENV.swift
+
+# Swift Packages
+.build/
+Packages/
+Package.pins
+Package.resolved
+
+# Xcode
+DerivedData/
+*.xcworkspace
+xcuserdata/
+*.xccheckout
+*.xcscmblueprint
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/report.json
+
+# Accio dependency management
+Dependencies/
+.accio/
+
+# SPM
+.swiftpm/
+.build/
+
+# Build generated files
+*.ipa
+*.app.dSYM.zip
+*.app.dSYM
+*.app.zip
+*.dSYM
+*.framework
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+.swiftpm
+.build
+
+# User-specific files
+*.moved-aside
+*.xcuserstate
+
+# IDE specific files
+.idea/
+*.idea/
+*.xcworkspace
+*.gradle
+*.kts
+
+# macOS specific files
+.DS_Store
+
+# Editor specific files
+*.swp
+*.swo
+*~
+.*.swp
+.*.swo
+
+# Operating system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+.Trashes
+
+.swiftpm
